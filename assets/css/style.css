@@ -139,7 +139,9 @@ button:focus-within {
 
 
 
-
+.X-logo{
+    width: 48px;
+}
 .nav-i * {
     box-sizing: border-box;
     transition: all .35s ease;
