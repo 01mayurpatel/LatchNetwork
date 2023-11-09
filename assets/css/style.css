@@ -1,0 +1,744 @@
+/* prefix css start */
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+i,
+button,
+strong,
+u,
+sub,
+sup,
+span,
+textarea,
+table tr td,
+select,
+input {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+}
+
+h1,
+h2 {
+    font-size: 60px;
+    line-height: 72px;
+}
+
+h3,
+h4 {
+    font-size: 40px;
+    line-height: 52px;
+}
+
+h5,
+h6 {
+    font-size: 30px;
+    line-height: 42px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+body {
+    background-color: #07013A;
+    background-image: url(../images/main-bg.svg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.form-control:focus-within,
+button:focus-within {
+    box-shadow: none !important;
+}
+
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.media-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+ 
+/* prefix css end */
+
+
+/* common css start */
+
+.common-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.common-heading h6 {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 110%;
+    color: #087DF9;
+    font-family: Satoshi-Bold;
+}
+
+.common-heading h2 {
+    font-style: normal;
+    font-size: 46px;
+    line-height: 110%;
+    color: #0F141E;
+    font-family: Satoshi-Bold;
+    margin-bottom: 4px;
+}
+
+
+
+
+
+
+
+.nav-i * {
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+  
+  .nav-i li {
+    display: inline-block;
+    list-style: outside none none;
+    
+  }
+  
+  .nav-i a {
+  
+  
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .nav-i a::before,
+  .nav-i a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+  
+  .nav-i a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid rgb(15,98,255);
+    border-right: 3px solid rgb(15,98,255);
+    transform: translate(-100%, 50%);
+  }
+  .nav-i .nav-i-2 a::before {
+    content: '';
+    right: 0%;
+    top: 70%;
+    border-bottom: 3px solid rgb(15,98,255);
+    border-top: none;
+    border-right: 3px solid rgb(15,98,255);
+    /* border-left: 3px solid rgb(15,98,255); */
+    transform: translate(-50%, -100%);
+  }
+  .nav-i a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid rgb(15,98,255);
+    border-left: 3px solid rgb(15,98,255);
+    transform: translate(100%, -50%)
+  }
+  .nav-i .nav-i-2 a:after {
+    content: '';
+    left: 0;
+    bottom: 70%;
+    border-bottom:none;
+    border-top: 3px solid rgb(15,98,255);
+    border-left: 3px solid rgb(15,98,255);
+    transform: translate(50%, 100%)
+  }
+  .nav-i a:hover:before,
+  .nav-i a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  
+  .nav-i a:hover {
+    color: #3DA35D;
+  }
+
+
+
+
+
+
+
+
+
+
+
+.img-box-1{
+    /* border: 2px solid blue; */
+   
+    margin-left: 2px;
+}
+.image-real {
+    /* Add a smooth transition effect */
+}
+
+.img-box-1:hover .image-real {
+    transform: scale(1.1);
+    transition: 100ms ease;
+    /* Change border color on hover */
+}
+.common-heading p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: -0.01em;
+    color: rgba(14, 23, 95, 0.75);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.pa-y4 {
+    padding: 5rem 0;
+}
+
+/* common css end */
+
+/* header css start */
+
+.header-section {
+    margin-top: 2rem;
+}
+
+.header-custom-bg {
+    background-image: url(../images/header-bg.svg);
+    background-repeat: no-repeat;
+    background-size: 98%;
+    background-position: center center;
+    padding: 1.6rem 2rem;
+}
+
+.header-section {
+    padding: 1rem 0;
+}
+
+.header-menu ul li {
+    display: inline-block;
+}
+
+.header-menu ul li a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 1rem;
+}
+
+.header-menu-2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header-menu-2 ul:nth-child(2) li a {
+    display: block;
+}
+
+.header-logo {
+    text-align: center;
+}
+
+/* header css end */
+
+/* hero css start */
+
+.hero-section {
+    margin-top: 4rem;
+}
+
+.hero-txt-wrap {
+    text-align: center;
+}
+
+.hero-txt-wrap h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-txt-wrap h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 117px;
+    line-height: 91%;
+    color: #FFFFFF;
+    margin: 1rem 0;
+}
+
+.hero-txt-wrap h1 span {
+    color: #077DF9;
+}
+
+.hero-txt-wrap p {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.hero-txt-wrap .hero_btn {
+    margin-top: 2rem;
+}
+
+.hero-txt-wrap .hero_btn a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.025em;
+    background: url(../images/btn-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    color: #FFFFFF;
+    margin-right: 1rem;
+    padding: 1rem 4rem;
+    transition: all linear .3s;
+    display: inline-flex;
+    align-items: center;
+}
+
+.hero-txt-wrap .hero_btn a img {
+    margin-left: 8px;
+}
+
+.hero-txt-wrap .hero_btn a:first-child:hover {
+    background: #077DF9;
+    color: #fff;
+}
+
+/* hero css end */
+
+/* about css start */
+.about-txt h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 71%;
+    color: #0F62FF;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+.about-txt h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.about-txt p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 1rem;
+}
+
+.custom-border {
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    background-image: url(../images/border-bg.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+/* about css end */
+
+/* white paper css start */
+.white-paper-txt h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 71%;
+    color: #0F62FF;
+}
+
+.white-paper-txt .d-flex a {
+    border: 1px solid #0F62FF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 71%;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 12px 20px;
+}
+
+.white-paper-txt .d-flex a:hover {
+    background-color: #0F62FF;
+}
+
+.white-paper-txt h6 {
+    border-top: 1px solid #FFFFFF;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.white-paper-txt p {
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 2rem;
+}
+
+.faq-txt .media span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.3321px;
+    line-height: 26px;
+    color: #0F62FF;
+    margin-right: 8px;
+}
+
+.faq-txt .media {
+    border-top: 1px solid #FFFFFF;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 1em;
+}
+
+.faq-txt .media:last-child {
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 1rem;
+}
+
+.faq-txt .media h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.faq-txt .media p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 12px;
+}
+
+/* white paper css end */
+
+/* builder txt */
+
+.builder-txt a.last-aa {
+    border: 1px solid #0F62FF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 71%;
+    color: #FFFFFF;
+    display: inline-block;
+    background: rgba(15, 98, 255, 0.25);
+    padding: 12px 20px;
+    margin-bottom: 1rem;
+}
+
+.builder-txt a.last-aa:hover {
+    background-color: #0F62FF;
+}
+
+.builder-txt hr {
+    border: none;
+    background-color: #fff;
+    height: 1px;
+    display: block;
+    width: 100%;
+    opacity: 1;
+}
+
+/* contact css start */
+.contact-txt h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 71%;
+    color: #fff;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact-txt h5 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.contact-txt form {
+    margin-top: 2rem;
+}
+
+.contact-txt form .form-floating {
+    margin-bottom: 1.2rem;
+}
+
+.contact-txt form .form-floating .form-control {
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+    border-radius: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contact-txt form .form-group textarea.form-control {
+    border: none;
+    border: 2px solid rgba(255, 255, 255, 0.75);
+    background-color: transparent;
+    border-radius: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    height: 140px;
+    margin-top: 1rem;
+    padding-top: 12px;
+}
+
+.contact-txt form .form-floating label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contact-txt form .form-group textarea.form-control:focus-within,
+.contact-txt form .form-floating .form-control:focus-within {
+    border-color: #0F62FF;
+}
+
+.contact-txt form .form-group {
+    display: flex;
+    align-items: center;
+}
+
+.contact-txt form .form-group p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contact-txt form .form-submit {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2rem;
+}
+.contact-txt form .form-submit p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px; 
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-txt form .form-submit .btn-submit{
+    border: 1px solid #0F62FF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 71%;
+    color: #FFFFFF;
+    display: inline-block;
+    background: rgba(15, 98, 255, 0.25);
+    padding: 14px 30px;
+    border-radius: 0px;
+}
+ 
+.contact-txt form .form-submit .btn-submit:hover {
+    background-color: #0F62FF;
+}
+/* contact css end */
+
+
+/* footer css start */
+.footer-section{
+    padding-bottom: 2rem;
+    margin-top: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid #FFFFFF;
+}
+/* footer css end */
+
+/* The container */
+.cont {
+    display: block;
+    position: relative;
+    padding-left: 42px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 2rem;
+}
+
+/* Hide the browser's default radio button */
+.cont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: transparent;
+    border-radius: 0;
+    border: 2px solid #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.cont:hover input~.checkmark {
+    background-color: #0F62FF;
+}
+
+/* When the radio button is checked, add a blue background */
+.cont input:checked~.checkmark {
+    background-color: transparent;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.cont input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.cont .checkmark::after {
+    top: 7px;
+    left: 6px;
+    width: 15px;
+    height: 15px;
+    border-radius: 0%;
+    background: #0F62FF;
+}
+
+/* modal css start */
+
+.modal-dialog{
+    max-width: 90%;
+}
+
+.modal-content{
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid #0F62FF;
+    border-radius: 30px 0px 30px 0px; 
+    padding: 3.2rem 2.5rem;
+}
+
+.modal-con p{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 1rem;
+}
+
+
+
